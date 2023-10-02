@@ -1,0 +1,1 @@
+pip install --target C:\Users\Asus\Documents\python_stage_pfe\webcraping\venv schedule

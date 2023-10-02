@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Jupyter Script",
+            "type": "shell",
+            "command": "jupyter",
+            "args": ["nbconvert", "--execute","--to","notebook","inplace", "c:/Users/Asus/Documents/python stage pfe/webcraping/final_test.ipynb"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
